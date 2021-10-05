@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lab2</title>
+    </head>
+
+    <p><a href="https://github.com/Nasser-96" target="_blank">Nasser Github </a></p>
+    <hr>
+    <head>
+        <b><i><br>This is Second Paragraph.</i></b>
+        
+    </head>
+    <body>
+        <ol start="50">
+            <li>This is <b style="color: red;">Order</b> List start from 50</li>
+            <li>This is <b style="color: red;">Order</b> List start from 50</li>
+            <li>This is <b style="color: red;">Order</b> List start from 50</li>
+          </ol>
+
+        <ul>
+            <li>This is <b style="color: red;"> UNOrder</b> List start with 50</li>
+            <li>This is <b style="color: red;"> UNOrder</b> List start with 50</li>
+            <li>This is <b style="color: red;"> UNOrder</b> List start with 50</li>
+        </ol>
+
+        <img src="https://tuwaiq.edu.sa/assets/images/tuwaiq-logo.svg" alt="Tuwaiq-Logo">
+        
+        <br><input type="button" value="Disabled" disabled>
+
+        <table>
+            <tr>
+                <th >First Name</th>
+                <th>Second Name</th>
+                <th>Last Name</th>
+            </tr>
+            <tr>
+                <td>Nasser</td>
+                <td>Abdullah</td>
+                <td>Abunasir</td>
+            </tr>
+
+            <button id="myBtn" onclick="topFunction()" style="position: absolute; left: 20%; right: 20%; bottom: -50%;">Go Up</button>
+            
+            <!-- this script taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+            <script>
+                //Get the button
+                var mybutton = document.getElementById("myBtn");
+                
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
+    </body>
+    
+    
+</html>
